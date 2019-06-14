@@ -3,12 +3,14 @@ package core.string;
 public class StringDemo {
 
     public static void main(String[] args) {
+        //String declaration
         String s1 = "Tops Technologies";
         String s2 = new String ("Tops Technologies");
 
         System.out.println("s1 = " + s1);
         System.out.println("s2 = " + s2);
 
+        //finding length of the String
         int len = s1.length();
         System.out.println("Length of s1 = " + len);
 

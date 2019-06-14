@@ -3,9 +3,12 @@ final class MyFinal
 {
 	final int a;//blank final variable
 	static final int b;//static final variable
+
+        //changing value of blank final variable
 	public MyFinal() {
 		a=10;
 	}
+        //changing blank static final variable using static block
 	static
 	{
 		b=109;

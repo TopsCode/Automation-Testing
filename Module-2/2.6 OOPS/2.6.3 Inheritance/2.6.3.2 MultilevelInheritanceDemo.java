@@ -1,3 +1,4 @@
+//Base class declartion
 class Car{
    public Car()
    {
@@ -8,6 +9,7 @@ class Car{
 	System.out.println("Vehicle Type: Car");
    }
 }
+//Deriving Base class Car into Maruti class
 class Maruti extends Car{
    public Maruti()
    {
@@ -22,6 +24,8 @@ class Maruti extends Car{
 	System.out.println("Max: 90Kmph");
    }
 }
+
+//Deriving intermidiate derived class into Maruti800
 public class Maruti800 extends Maruti{
 
    public Maruti800()
@@ -34,6 +38,7 @@ public class Maruti800 extends Maruti{
    }
    public static void main(String args[])
    {
+        //object of last derived class
 	 Maruti800 obj=new Maruti800();
 	 obj.vehicleType();
 	 obj.brand();

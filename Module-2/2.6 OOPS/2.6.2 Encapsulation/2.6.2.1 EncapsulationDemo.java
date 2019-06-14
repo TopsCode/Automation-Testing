@@ -6,6 +6,7 @@ class BookDetails
 	public int pages;
 	public double price;
 	public String bname;
+        //generating getter and setter methods of all attributes
 	public int getBookid() {
 		return bookid;
 	}
@@ -42,9 +43,12 @@ public class EncapsulationDemo {
 
 	public static void main(String[] args) {
 	BookDetails b=new BookDetails();
+
+       //setting values
 	b.setBookid(11);
 	b.setBname("C programming");
 	
+        //getting values
 	System.out.println("Book id:"+b.getBookid());
 
 	}

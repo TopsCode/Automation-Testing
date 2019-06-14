@@ -1,12 +1,18 @@
 package com.fundamentals;
+//Interface declaration
 interface RBI
 {
+        //abstract method
 	void RateOfInterset();
 	void msg();
+
+        //default method
 	default void defmethod()
 	{
 		System.out.println("This is default method.");
 	}
+
+        //static method
 	static void statmethod()
 	{
 		System.out.println("Static method");
@@ -17,10 +23,13 @@ interface Cost_details
 	void showdetails();
 	void msg();
 }
+//Extending one interface into another
 interface AllData extends RBI,Cost_details
 {
 	void showallData();
 }
+
+//Implementing Interface into Class
 class Sample_new implements AllData
 {
 
@@ -83,14 +92,7 @@ public class Abstraction_InterfaceDemo {
 		
 		SBI obj=new SBI();
 		obj.msg();
-		obj.defmethod();
-		
-		
-		
-		
-		
-		
-		
+		obj.defmethod();		
 	}
 
 }

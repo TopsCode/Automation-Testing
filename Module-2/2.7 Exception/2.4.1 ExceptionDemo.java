@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ExceptionDemo {
 
 	public static void main(String[] args) {
+         //Exception Handler try block
 		try
 		{
 		int n1,n2;
@@ -19,15 +20,18 @@ public class ExceptionDemo {
 		int sum=n1+n2;
 		System.out.println("Sum is:"+sum);
 		
+               //here exception will occur
 		int div=n1/n2;
 		System.out.println("Division is:"+div);
 	
 		}
+                //Exception can be caught by catch block
 		catch(Exception e)
 		{
 			System.out.println("Exception is:"+e);
 			//e.printStackTrace();
 		}
+                //finally block always executes
 		finally
 		{
 			System.out.println("Finally block executed");

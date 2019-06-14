@@ -1,16 +1,13 @@
 package BankDemo;
 
 import java.util.Scanner;
-
+//Custome Exception class declartion
 class Insuffientfund extends Exception{
 	
 	double amount;
 	
-	public Insuffientfund(double amount) {
-		// TODO Auto-generated constructor stub
-		
-		this.amount = amount;
-		
+	public Insuffientfund(double amount) 		
+		this.amount = amount;	
 	}
 	
 	public double getAmount(){
@@ -19,14 +16,13 @@ class Insuffientfund extends Exception{
 	}
 
 }
+//class to check account balance
  class CheckingAccount {
 
 	int acno;
 	double balance = 0.0;
 
 	public CheckingAccount(int acno) {
-		// TODO Auto-generated constructor stub
-
 		this.acno = acno;
 	}
 
@@ -58,7 +54,6 @@ class Insuffientfund extends Exception{
 public class BankDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		CheckingAccount c = new CheckingAccount(101);
 		

@@ -19,12 +19,12 @@ class Person//Super class
 		System.out.println("Person name:"+pname);
 	}
 }
-class Student extends Person
+class Student extends Person //Student is-a Person
 {
 	double m1,m2,total;
 	void AcceptStd()
 	{
-		acceptP();//Person
+		acceptP();//Person class method access
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter marks of two subjects:");
 		m1=sc.nextDouble();
@@ -37,7 +37,7 @@ class Student extends Person
 	}
 	void dispStd()
 	{
-		dispP();//Person
+		dispP();//Person class method access
 		System.out.println("marks-1:"+m1);
 		System.out.println("marks-2:"+m2);
 		System.out.println("Total of marks is:"+cal_total());
@@ -46,6 +46,7 @@ class Student extends Person
 public class SimpleInheritanceDemo {
 
 	public static void main(String[] args) {
+                //Object of derived class Student
 		Student s=new Student();
 		s.AcceptStd();
 		s.dispStd();

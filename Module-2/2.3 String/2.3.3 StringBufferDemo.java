@@ -4,6 +4,7 @@ public class StringBufferDemo {
 
     public static void main(String[] args) {
         String s1 = "Tops";
+        //creating object of StringBuffer class
         StringBuffer sb = new StringBuffer(s1);
         System.out.println(sb);
 

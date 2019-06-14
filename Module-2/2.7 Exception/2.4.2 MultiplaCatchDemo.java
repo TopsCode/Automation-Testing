@@ -14,9 +14,10 @@ public class MultiplaCatchDemo {
 		int sum=a[0]+a[1];
 		System.out.println("Sum of 0th and 1st index value:"+sum);
 		
+                //here exception will occurs
 		int div=a[1]/a[2];
 		System.out.println("Div of 1st and 2nd index value is:"+div);
-		
+		//here exception will occurs
 		int sub=a[1]-a[3];
 		System.out.println("Sub of 1st and 3rd index is:"+sub);
 		}

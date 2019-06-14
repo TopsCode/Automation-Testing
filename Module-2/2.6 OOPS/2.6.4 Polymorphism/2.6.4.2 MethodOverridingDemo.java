@@ -1,11 +1,13 @@
 package fundamentals;
+//Parent class
 class Shape
 {
 	void draw()
 	{
-		System.out.println("This Shape-parent class draw() method");
+      System.out.println("This Shape-parent class draw() method");
 	}
 }
+//child class Circle
 class Circle extends Shape
 {
 	double radius;
@@ -18,6 +20,7 @@ class Circle extends Shape
 
 	}
 }
+//child class Triangle
 class Triangle extends Shape
 {
 	double ht,bs;
@@ -37,9 +40,11 @@ class Triangle extends Shape
 public class MethodOverridingDemo {
 
 	public static void main(String[] args) {
+               //Call Cricle draw() method
 		Shape c=new Circle();
 		c.draw();
-		
+               
+		//Call Triangle draw() method
 		Shape t=new Triangle();
 		t.draw();
 		

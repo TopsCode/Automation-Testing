@@ -7,7 +7,9 @@ import java.util.ListIterator;
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
+           //creating object of ArrayList class
 		ArrayList al=new ArrayList();
+           //adding elemnts into arraylist
 		al.add(10);
 		al.add(10.10);
 		al.add("Tops");
@@ -17,11 +19,14 @@ public class ArrayListDemo {
 		al.add(10);
 		al.add(10);
 		System.out.println(al);
+                //size of arraylist
 		System.out.println("Size Of List : "+al.size());
+               //removing arraylist elemnt
 		al.remove(1);
 		System.out.println(al);
 		System.out.println("Size Of List : "+al.size());
 		System.out.println(al.get(3));
+               //Creating reference of Iterator interface
 		Iterator itr=al.iterator();
 		while(itr.hasNext())
 		{

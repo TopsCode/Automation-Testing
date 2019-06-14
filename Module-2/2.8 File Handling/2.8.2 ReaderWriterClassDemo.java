@@ -10,13 +10,15 @@ public class ReaderWriterClassDemo {
 	try {
 		fw = new FileWriter("test1.txt");
 		String str="This is file io reader writer program";
-	    fw.write(str);
+           //Writing string directly to file
+       	    fw.write(str);
 	    fw.flush();
 	    fw.close();
 	    System.out.println("Data write successfully");
 	    System.out.println();
 	    
 	    FileReader fr=new FileReader("test1.txt");
+            //reading data from file
 	    int i;
 	    while((i=fr.read())!=-1)
 	    {

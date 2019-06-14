@@ -3,6 +3,7 @@ package core.string;
 public class StringBuilderDemo {
 
     public static void main(String[] args) {
+        //creating object of StringBuilder class
         StringBuilder str = new StringBuilder("Tops");
         System.out.println("str = " + str);
 

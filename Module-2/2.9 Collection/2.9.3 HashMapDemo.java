@@ -9,6 +9,7 @@ import java.util.Set;
 public class HashMapDemo {
 
 	public static void main(String[] args) {
+        //creating object of HAshMap class
 		HashMap map=new HashMap<>();
 		map.put(1,"Abhishek");
 		map.put(2,"Sunit");

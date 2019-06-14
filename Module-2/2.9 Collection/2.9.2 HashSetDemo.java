@@ -7,7 +7,9 @@ import java.util.ListIterator;
 public class HashSetDemo {
 
 	public static void main(String[] args) {
+      //creating object of Hashset class
 		HashSet hs=new HashSet();
+      //adding elemnt to the HashSet
 		hs.add(10);
 		hs.add(10.10);
 		hs.add("Tops");

@@ -3,7 +3,7 @@ package com.fundamentals;
 abstract class Shape_n//Parent classs
 {
 	abstract void area();//abstract method
-	void display_msg()//non abstract
+	void display_msg()//non abstract method
 	{
 		System.out.println("I am Parent Shape.");
 	}
