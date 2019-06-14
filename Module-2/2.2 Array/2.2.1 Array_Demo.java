@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Array_Demo {
 
 	public static void main(String[] args) {
+        //one-D array declaration
 	int a[]=new int[5];//dynamically created on heap segment
-	int b[][]=new int[2][2];
+
+        //two-D array declartion
+     	int b[][]=new int[2][2];
 	
 	int c[]= {10,20,30,40};//1d array initialization
 	int d[][]= {{10,20},{3,4}};//2d array initialization
