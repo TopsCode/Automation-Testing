@@ -2,12 +2,14 @@ package fundamentals;
 
 import java.util.Scanner;
 
+//Declaration of class
 class Employee
 {
+     //Attributes of class
 	int id;
 	String name;
 	double salary;
-	void acceptEmpData()
+	void acceptEmpData()//method
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter Emp Id,name and salary:");
@@ -23,26 +25,6 @@ class Employee
 	}
 }
 
-class Student
-{
-	int rollno;
-	String name;
-	double per;
-	void acceptStdData()
-	{
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter Student rollno,name and per:");
-		rollno=sc.nextInt();
-		name=sc.next();
-		per=sc.nextDouble();
-	}
-	void dispStdData()
-	{
-		System.out.println("Student Rollno:"+rollno);
-		System.out.println("Student Name:"+name);
-		System.out.println("Student Percentage:"+per);
-	}
-}
 public class Class_ObjectDemo {
 
 	public static void main(String[] args) {
@@ -58,12 +40,6 @@ public class Class_ObjectDemo {
 	Employee e2=new Employee();
 	e2.acceptEmpData();
 	e2.dispEmpData();
-	
-	System.out.println("\n Student details s1:");
-	Student s1=new Student();
-	s1.acceptStdData();
-	s1.dispStdData();
-	
 	
 	}
 
