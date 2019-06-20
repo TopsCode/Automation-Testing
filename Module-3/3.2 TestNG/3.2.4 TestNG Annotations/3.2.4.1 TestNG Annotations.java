@@ -35,7 +35,7 @@ public class Sequencing {
 			System.out.println("This is the Test Case 2");
 
 		}
-
+//The annotated method will be run before each test method.
 		@BeforeMethod
 
 		public void beforeMethod() {
@@ -43,7 +43,7 @@ public class Sequencing {
 			System.out.println("This will execute before every Method");
 
 		}
-
+//The annotated method will be run after each test method.
 		@AfterMethod
 
 		public void afterMethod() {
@@ -51,6 +51,7 @@ public class Sequencing {
 			System.out.println("This will execute after every Method");
 
 		}
+//The annotated method will be run only once before the first test method in the current class is //invoked.
 
 		@BeforeClass
 
@@ -59,6 +60,7 @@ public class Sequencing {
 			System.out.println("This will execute before the Class");
 
 		}
+//The annotated method will be run only once after all the test methods in the current class have run.
 
 		@AfterClass
 
@@ -85,6 +87,7 @@ public class Sequencing {
 			System.out.println("This will execute after the Test");
 
 		}
+//The annotated method will be run only once before all tests in this suite have run.
 
 		@BeforeSuite
 
@@ -93,6 +96,7 @@ public class Sequencing {
 			System.out.println("This will execute before the Test Suite");
 
 		}
+//The annotated method will be run only once after all tests in this suite have run.
 
 		@AfterSuite
 
