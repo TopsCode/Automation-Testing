@@ -67,6 +67,7 @@ public class Sequencing {
 			System.out.println("This will execute after the Class");
 
 		}
+//The annotated method will be run before any test method belonging to the classes inside the <test> tag is run.
 
 		@BeforeTest
 
@@ -75,6 +76,7 @@ public class Sequencing {
 			System.out.println("This will execute before the Test");
 
 		}
+//The annotated method will be run only once after all the test methods in the current class have run.
 
 		@AfterTest
 
