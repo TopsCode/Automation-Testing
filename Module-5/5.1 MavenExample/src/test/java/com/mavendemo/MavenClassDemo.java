@@ -12,6 +12,7 @@ public class MavenClassDemo
 		//Creating Driver Object
 		WebDriver driver=new ChromeDriver();
 			driver=new ChromeDriver(); 
+		//Login and signout to the application
 			driver.get("http://automationpractice.com/index.php");
 			Thread.sleep(2000);
 			driver.findElement(By.linkText("Sign in")).click();
