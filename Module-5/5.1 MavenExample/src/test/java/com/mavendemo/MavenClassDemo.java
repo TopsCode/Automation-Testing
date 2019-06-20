@@ -9,6 +9,7 @@ public class MavenClassDemo
 	public static void main(String[] args) throws InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\tops\\Java_ST_Automation2018\\selenium\\selenium\\driver\\chromedriver.exe");
+		//Creating Driver Object
 		WebDriver driver=new ChromeDriver();
 			driver=new ChromeDriver(); 
 			driver.get("http://automationpractice.com/index.php");
