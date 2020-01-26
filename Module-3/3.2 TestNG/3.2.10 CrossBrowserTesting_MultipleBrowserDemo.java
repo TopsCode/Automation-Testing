@@ -56,10 +56,10 @@ public class CrossBrowserScript {
 		//Find user name
 		WebElement userName = driver.findElement(By.name("uid"));
 		//Fill user name
-		userName.sendKeys("guru99");
+		userName.sendKeys("tops");
 		//Find password
 		WebElement password = driver.findElement(By.name("password"));
 		//Fill password
-		password.sendKeys("guru99");
+		password.sendKeys("tops1234");
 	}
 }
